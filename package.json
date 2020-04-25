@@ -2,9 +2,11 @@
   "name": "primeline-services",
   "version": "1.0.0",
   "description": "A website for primeline services",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "npm run test"
+    "dev": "webpack-dev-server --open",
+    "build": "webpack --mode production",
+    "test": "jest --verbose"
   },
   "author": "hybridx",
   "license": "MIT",
