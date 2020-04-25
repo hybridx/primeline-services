@@ -1,4 +1,5 @@
 @import './media-queries.scss';
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
 html {
 	scroll-behavior: smooth;
@@ -151,4 +152,24 @@ html {
   }
   .carousel-caption {
 	background: #06060661;
+  }
+
+  .card-body.mb-1.striped {
+	  ul {
+		  list-style: none;
+		  li {
+			  text-align: left;
+		  }
+	  }
+  }
+
+  .logo-text {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 2px;
+  }
+
+  .number {
+	  margin: 1rem;
+	  width: 9rem;
   }
