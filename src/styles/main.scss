@@ -1,3 +1,5 @@
+@import './media-queries.scss';
+
 html {
 	scroll-behavior: smooth;
 }
@@ -20,23 +22,7 @@ html {
 	transform: scale(1); 
   }
 
-  @media (max-width: 450px) {
-	.gallery {
-	  -webkit-column-count: 1;
-	  -moz-column-count: 1;
-	  column-count: 1;
-	  -webkit-column-width: 100%;
-	  -moz-column-width: 100%;
-	  column-width: 100%;
-	}
-  }
 
-  @media (max-width: 400px) {
-	.btn.filter {
-	  padding-left: 1.1rem;
-	  padding-right: 1.1rem;
-	}
-  }
   button.close {
 	position: absolute;
 	right: 0;
@@ -101,56 +87,6 @@ html {
 	text-align: left;
   }
 
-  @media (max-width: 767.98px) {
-	.timeline::before {
-	  left: 8px;
-	}
-  }
-
-  @media (max-width: 767.98px) {
-	.timeline-element {
-	  width: 100%;
-	  text-align: left;
-	  padding-left: 2.5rem;
-	  padding-right: 0;
-	}
-  }
-
-  @media (max-width: 767.98px) {
-	.timeline-element::before {
-	  top: 1.25rem;
-	  left: 1px;
-	}
-  }
-
-  @media (max-width: 767.98px) {
-	.timeline-element:nth-child(even) {
-	  margin-left: 0rem;
-	}
-  }
-
-  @media (max-width: 767.98px) {
-	.timeline-element {
-	  width: 100%;
-	  text-align: left;
-	  padding-left: 2.5rem;
-	  padding-right: 0;
-	}
-  }
-
-  @media (max-width: 767.98px) {
-	.timeline-element:nth-child(even)::before {
-	  left: 1px;
-	}
-  }
-
-  @media (max-width: 767.98px) {
-	.timeline-element::before {
-	  top: 1.25rem;
-	}
-  }
-
-
   .fa-play:before {
 	margin-left: .3rem;
   }
@@ -205,4 +141,11 @@ html {
 
   .step .step-element:last-child .step-number::before {
 	bottom: 1rem;
+  }
+  .card {
+      transition: all 320ms ease-in-out;
+  }
+  .card.pricing-card:hover {
+    box-shadow: 3px 3px 7px #afafaf;
+    transform: translate(-3px, -3px);
   }
