@@ -1,2 +1,2 @@
 import './styles/main.scss';
-import 'copyright-x/dist/copyright-x.js';
+import '@hybridxweb/copyright-x/dist/copyright-x';
