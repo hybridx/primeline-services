@@ -174,8 +174,10 @@ button.close {
 }
 
 .view {
-	max-height: 720px;
-	max-width: 1110px;
+	img {
+		max-height: 720px;
+		max-width: 1110px;
+	}
 }
 
 copyright-x {
