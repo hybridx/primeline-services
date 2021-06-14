@@ -27,7 +27,7 @@
     "webpack": "4.42.1",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.11.0",
-    "webpack-merge": "4.2.2"
+    "webpack-merge": "5.8.0"
   },
   "dependencies": {
     "@hybridxweb/copyright-x": "^0.1.2",
